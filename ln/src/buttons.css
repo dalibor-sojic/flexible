@@ -1,0 +1,35 @@
+button {
+	border: none;
+	background: transparent;
+}
+
+.btn {
+	display: inline-block;
+	width: auto !important;
+	border: none;
+	outline: none;
+	padding: 5px 10px;
+	margin: 0;
+	/*float: left;*/
+	font-size: 14px;
+	align-items: flex-start;
+	text-align: center;
+	text-decoration: none;
+	line-height: 1em;
+	border-radius: 0;
+}
+
+
+.btn.small {
+	padding: 2px;
+	font-size: 10px;
+}
+
+.group {
+	display: inline-block;
+}
+
+.group .btn {
+	display: block;
+	float: left;
+}

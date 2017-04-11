@@ -1,0 +1,42 @@
+table {
+	width: 100%;
+	cursor: default;
+	
+	border-collapse: separate;
+	border-spacing: 0;
+	empty-cells: show;
+	border-width: 0;
+	outline: 0;
+}
+
+table thead {
+	/*position: fixed;*/
+	width: 100%;
+}
+
+
+
+table th, table td {
+	padding: 4px;
+}
+
+/*
+
+table tbody {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow: auto;
+	display: block;
+}
+
+table tbody tr {
+	display: table-row;
+}
+
+table tbody tr td {
+	display: table-cell;
+}*/

@@ -1,0 +1,342 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Live Networks Forms</title>
+
+	<link href="../ln/css/reset.css" rel="stylesheet">
+	<link href="../ln/css/base.css" rel="stylesheet">
+	<link href="../ln/layout.css" rel="stylesheet">
+
+	<link href="../ln/css/themes/flat-blue.css" rel="stylesheet">
+
+
+	<link href="../ln/css/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+
+</head>
+
+<body class="flexible rows">
+
+	<header class="">
+		<h1>Registration</h1>
+	</header>
+	
+	<main class="flexible cols auto">
+
+		<aside class="">
+			Left Sidebar
+		</aside>
+
+		<section class="flexible rows auto">
+			<div class="panel">
+
+				<form class="vertical">
+					<h1>Вертикална форма во 3 колони</h1>
+					<div data-cols="3">
+						<p class="controll">
+							<label>Label</label>
+							<span role="input">
+								<!-- Required -->
+								<span class="validation error">
+									<i class="fa fa-exclamation btn" aria-hidden="true"></i>
+									<span class="message">Е-маил адресата не е валидна!</span>
+								</span>
+								<!-- Input -->
+								<input type="text" class="prefix suffix" />
+
+								<!-- Optional -->
+								<i class="inputPrefix fa fa-envelope" aria-hidden="true"></i> 
+								<i class="inputSuffix fa fa-calendar" aria-hidden="true"></i>
+							</span>
+						</p>
+						
+						<p class="controll">
+							<label>Label</label>
+							<span role="input">
+								<!-- Required -->
+								<span class="validation success">
+									<i class="fa fa-check btn" aria-hidden="true"></i>
+									<span class="message">Е-маил адресата не е валидна!</span>
+								</span>
+								<!-- Input -->
+								<input type="text" class="prefix suffix" />
+
+								<!-- Optional -->
+								<i class="inputPrefix fa fa-envelope" aria-hidden="true"></i> 
+								<!-- Optional -->
+								<button class="inputSuffix fa fa-calendar icon" aria-hidden="true"></button>
+							</span>
+						</p>
+
+						<p class="controll">
+							<label>Label</label>
+							<span role="input">
+								<span class="validation info">
+									<i class="fa fa-exclamation btn error" aria-hidden="true"></i>
+									<span class="message">Е-маил адресата не е валидна!</span>
+								</span>
+								<input type="text" class="prefix suffix" />
+								<i class="inputPrefix icon fa fa-envelope" aria-hidden="true"></i>
+								<i class="inputSuffix icon fa fa-calendar" aria-hidden="true"></i>
+							</span>
+						</p>
+						<p class="controll">
+							<label>Label</label>
+							<span role="input">
+								<i class="inputPrefix icon fa fa-envelope" aria-hidden="true"></i>
+								<input type="text" data-prefix="T" class="prefix suffix" />
+								<span class="validation">
+									<i class="fa fa-exclamation btn error" aria-hidden="true"></i>
+									<span class="message">Е-маил адресата не е валидна!</span>
+								</span>
+							</span>
+						</p>
+						<p class="controll">
+							<label>Label</label>
+							<span role="input">
+								<span class="validation">
+									<i class="fa fa-exclamation btn error" aria-hidden="true"></i>
+									<span class="message">Е-маил адресата не е валидна!</span>
+								</span>
+								<textarea></textarea>
+							</span>
+						</p>
+					</div>
+					
+					<h1>Листа на чекбоксови</h1>
+					<div class="horizontal" data-cols="2">
+						
+						<p>
+							Прашање број 1, договори со чекбоксови
+
+							<span role="input">
+
+								<span class="validation above error">
+									<i class="fa fa-exclamation btn" aria-hidden="true"></i>
+									<span class="message">Е-маил адресата не е валидна!</span>
+								</span>
+
+								<label>
+									<input type="checkbox" value="">
+									Checkbox 1
+								</label>
+								<label>
+									<input type="checkbox" value="">
+									Checkbox 1
+								</label>
+								<label>
+									<input type="checkbox" value="">
+									Checkbox 1
+								</label>
+
+							</span>
+						</p>
+						<p>
+							Прашање број 1, договори со чекбоксови
+
+							<span role="input">
+
+								<span class="validation above error">
+									<i class="fa fa-exclamation btn" aria-hidden="true"></i>
+									<span class="message">Е-маил адресата не е валидна!</span>
+								</span>
+
+								<label>
+									Checkbox 1
+									<input type="checkbox" value="">
+								</label>
+								<label>
+									Checkbox 1
+									<input type="checkbox" value="">
+								</label>
+								<label>
+									Checkbox 1
+									<input type="checkbox" value="">
+								</label>
+
+							</span>
+						</p>
+
+					</div>
+
+					<h1>tret div </h1>
+					<div data-cols="3">
+						<p class="controll">
+							<label>Select</label>
+							<span role="input">
+								<span class="validation">
+									<i class="" aria-hidden="true"></i>
+								</span>
+								
+								<select>
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+								</select>
+								
+							</span>
+						</p>	
+
+						<p class="controll">
+							<label>Multiple</label>
+							<span role="input">
+								<span class="validation">
+									<i class="" aria-hidden="true"></i>
+								</span>
+							
+								<select multiple="" class="">
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+									<option>6</option>
+									<option>7</option>
+									<option>8</option>
+								</select>
+							</span>
+						</p>
+
+						<div class="horizontal">
+							<p class="controll">
+								<label>Radio 1</label>
+								<span role="input">
+
+									<span class="validation">
+										<i class="" aria-hidden="true"></i>
+									</span>
+
+									<input type="radio" value="" name="radio">
+								
+
+								</span>
+							</p>
+
+							<p class="controll">
+								<label>Radio 2</label>
+								<span role="input">
+
+									<span class="validation">
+										<i class="" aria-hidden="true"></i>
+									</span>
+
+									<input type="radio" value="" name="radio">
+								
+
+								</span>
+							</p>
+
+							<p class="controll">
+								<label>Radio 2</label>
+								<span role="input">
+
+									<span class="validation">
+										<i class="" aria-hidden="true"></i>
+									</span>
+
+									<input type="radio" value="" name="radio">
+								
+
+								</span>
+							</p>
+						</div>
+
+					</div>
+
+					<h1>Radio batoni u ul li </h1>
+
+					<div>
+							
+						<p class="controll">
+							Izberi nekoj radio buton
+							<span role="input">	
+								<span class="validation">
+									<span class="message">Изборот не е валиден!</span>
+								</span>
+									
+								<ul class="validation">
+									<li>
+										<label>Label</label>
+										<input type="radio" name="radio">
+									</li>
+
+									<li>
+										<label>Label</label>
+										<input type="radio" name="radio">
+									</li>
+									
+									<li>
+										<label>Label</label>
+										<input type="radio" name="radio">
+									</li>
+									
+									<li>
+										<label>Label</label>
+										<input type="radio" name="radio">
+									</li>
+								</ul>
+
+							</span>
+						</p>
+
+					</div>
+
+					<h1>Inline form</h1>
+					<div data-cols="4">
+						<p class="controll">
+							<span role="input">
+								<i class="inputPrefix icon fa fa-envelope" aria-hidden="true"></i>
+								<input type="text" data-prefix="T" class="prefix suffix" />
+								<span class="validation">
+									<i class="fa fa-exclamation btn error" aria-hidden="true"></i>
+									<span class="message">Е-маил адресата не е валидна!</span>
+								</span>
+							</span>
+						</p>
+						<p class="controll">
+							<span role="input">
+								<i class="inputPrefix icon fa fa-envelope" aria-hidden="true"></i>
+								<input type="password" data-prefix="T" class="prefix suffix" />
+								<span class="validation">
+									<i class="fa fa-exclamation btn error" aria-hidden="true"></i>
+									<span class="message">Е-маил адресата не е валидна!</span>
+								</span>
+							</span>
+						</p>
+
+						<p class="controll">
+								<label>
+									save password
+									<input type="checkbox" data-prefix="T" class="prefix suffix" />
+								</label>
+							
+						</p>
+
+						<p class="center">
+							<input class="btn success" type="submit" value="Snimi">
+							<a href="#" class="btn info">
+								<i class="fa fa-check" aria-hidden="true"></i>
+								register
+							</a>
+						</p>
+
+					</div>
+
+				</form>
+
+			</div>
+
+		</section>
+
+	</main>
+
+	<footer>
+		<p>Copyright 2009</p>
+	</footer>
+
+</body>
+</html>

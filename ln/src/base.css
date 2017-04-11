@@ -1,0 +1,154 @@
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+html, body.flexible {
+	width: 100%;
+	height: 100%;
+	/*overflow: hidden;*/
+	
+}
+
+footer {
+	overflow: hidden;
+}
+
+body {
+	line-height: 1em;
+	font-size: 14px;
+}
+
+.flexible {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+
+	justify-content: flex-start; /* align items in Main Axis */
+	align-items: stretch; /* align items in Cross Axis */
+	align-content: stretch; /* Extra space in Cross Axis */
+
+	x-justify-content: space-around;
+	x-align-items: stretch;
+
+	/*height: 100%;
+	width: 100%;*/
+}
+
+.cols {
+	flex-direction: row;
+}
+
+.rows {
+	flex-direction: column;
+}
+
+.panel {
+	overflow: auto;
+	position: relative;
+	height: auto;
+	width: 100%;
+}
+
+
+.auto {
+/*	-webkit-flex: 1;
+	-ms-flex: 1;*/
+	flex: 1;
+	align-self: stretch;
+	flex-grow: auto;
+	flex-shrink: auto;
+
+	position: relative;
+
+	min-width: 100px;
+	min-height: 100px;
+}
+
+
+[data-size="2"] {
+	flex: 2;
+}
+[data-size="3"] {
+	flex: 3;
+}
+[data-size="4"] {
+	flex: 4;
+}
+[data-size="5"] {
+	flex: 5;
+}
+[data-size="6"] {
+	flex: 6;
+}
+[data-size="7"] {
+	flex: 7;
+}
+[data-size="8"] {
+	flex: 8;
+}
+[data-size="9"] {
+	flex: 9;
+}
+[data-size="10"] {
+	flex: 10;
+}
+[data-size="11"] {
+	flex: 11;
+}
+[data-size="12"] {
+	flex: 12;
+}
+
+[data-cols] {
+	column-gap: 0;
+	/*margin-top: 20px;*/
+}
+
+[data-cols="1"] {
+	-moz-column-count: 1;
+	column-count: 1;
+}
+[data-cols="2"] {
+	-moz-column-count: 2;
+	column-count: 2;
+}
+[data-cols="3"] {
+	-moz-column-count: 3;
+	column-count: 3;
+}
+[data-cols="4"] {
+	-moz-column-count: 4;
+	column-count: 4;
+}
+[data-cols="5"] {
+	-moz-column-count: 5;
+	column-count: 5;
+}
+[data-cols="6"] {
+	-moz-column-count: 6;
+	column-count: 6;
+}
+
+[data-cols] > * {
+	break-inside: avoid-column;
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+
+
+.scrollable {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow: auto;
+}

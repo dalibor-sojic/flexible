@@ -1,0 +1,140 @@
+.box > header {
+	border-bottom: 1px solid #3598DC;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.box .main {
+	padding:15px;
+	padding-top:20px;
+}
+
+
+/* === Red Box Options === */
+
+.box.orange {
+	border: 1px solid #DFA941;
+	border-top: none;
+}
+
+.box.orange > header {
+	border-bottom: 1px solid #DFA941;
+	background-color: #DFA941;
+}
+
+
+
+/* === Blue Box Options === */
+
+.box.blue {
+	border: 1px solid #5C9BD1;
+	border-top: none;
+}
+
+.box.blue > header {
+	background-color: #5C9BD1;
+	border-bottom: 1px solid #5C9BD1;
+}
+
+.box.blue-madison {
+	border: 1px solid #578EBE;
+	border-top: none;
+}
+
+.box.blue-madison > header {
+	background-color: #578EBE;
+	border-bottom: 1px solid #578EBE;
+}
+
+.box.blue-dark {
+	border: 1px solid #578EBE;
+	border-top: none;
+}
+
+.box.blue-dark > header {
+	background-color: #5E738B;
+	border-bottom: 1px solid #5E738B;
+}
+
+
+
+/* === Green Box Options === */
+
+.box.green {
+	border: 1px solid #26C281;
+	border-top: none;
+}
+
+.box.green > header {
+	border-bottom: 1px solid #26C281;
+	font-weight: bold;
+	background-color: #26C281;
+}
+
+
+.box.green-dark {
+	border: 1px solid #0f4c4c;
+	border-top: none;
+}
+
+.box.green-dark > header {
+	border-bottom: 1px solid #0f4c4c;
+	font-weight: bold;
+	background-color: #0f4c4c;
+}
+
+.box.green-haze {
+	border: 1px solid #44B6AE;
+	border-top: none;
+}
+
+.box.green-haze > header {
+	border-bottom: 1px solid #44B6AE;
+	font-weight: bold;
+	background-color: #44B6AE;
+}
+
+
+.box.yellow-mint {
+	border: 1px solid #C5B96B;
+	border-top: none;
+}
+
+.box.yellow-mint > header {
+	border-bottom: 1px solid #C5B96B;
+	background-color: #C5B96B;
+}
+
+
+/* === Neutral Box Options === */
+
+.box.grey-mint {
+	border: 1px solid #525E64;
+	border-top: none;
+}
+
+.box.grey-mint > header {
+	border-bottom: 1px solid #525E64;
+	background-color: #525E64;
+}
+
+.box.grey-cascade {
+	border: 1px solid #95A5A6;
+	border-top: none;
+}
+
+.box.grey-cascade > header {
+	border-bottom: 1px solid #95A5A6;
+	background-color: #95A5A6;
+}
+
+
+
+
+.box > header > h1, .box > header > h2, .box > header > h3, .box > header > h4, .box > header > h5 {
+	padding: 0;
+	font-weight: 600;
+	font-size: 18px;
+	color: #f8f8f8;
+}
+

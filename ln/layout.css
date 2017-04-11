@@ -1,0 +1,37 @@
+/*::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #e3e3e3;
+}
+::-webkit-scrollbar-track {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(188,188,188,1); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(0,0,0,1); 
+}
+*/
+
+body {
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+input {
+	font-size: 16px;
+}
+
+aside {
+	width: 200px;
+	flex: 0 0 200px;
+}
+
+form {
+	display: block;
+}

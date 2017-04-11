@@ -1,0 +1,135 @@
+.controll {
+	margin: 10px;
+	padding-bottom: 25px;
+}
+
+.controll.noFlex {
+	flex: none;
+	display: block !important;
+}
+
+.horizontal .controll {
+	display: flex;
+}
+
+.horizontal label {
+	width: 100px;
+	margin-right: 5px;
+	text-align: right;
+	padding-top: 5px;
+}
+.horizontal input:not([type="checkbox"]):not([type="radio"]), .horizontal textarea, .horizontal select {
+	flex: 1;
+	width: calc(100% - 20px);
+}
+
+
+.vertical label {
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.vertical input:not([type="checkbox"]):not([type="radio"]), .vertical textarea, .vertical select {
+	flex: 1;
+	width: calc(100% - 20px);
+}
+
+
+.big input {
+	font-size: 18px;
+}
+
+
+textarea {
+	height: 100px;
+}
+
+input[type="text"]
+, input[type="password"]
+, input[type="number"]
+, input[type="email"]
+, input[type="date"] {
+	border-radius: 0;
+	padding: 3px;
+	outline: none;
+}
+
+input.prefix {
+	padding-left: 2em;
+}
+input.suffix {
+	padding-right: 2em;
+}
+
+[role="input"] {
+	flex: 1;
+	position: relative;
+	display: block;
+}
+
+.inputPrefix, .inputSuffix {
+	position: absolute;
+	top: 1px;
+	bottom: 1px;
+	cursor: default;
+	padding: 5px;
+	text-align: center;
+
+}
+
+.big .inputPrefix, .big .inputSuffix {
+	font-size: 18px;
+	width: 30px;
+	padding-top: 7px;
+}
+
+.inputPrefix {
+	left: 1px;
+}
+
+.inputSuffix {
+	right: 21px;
+}
+
+.validation {
+
+}
+
+[role="input"] .validation {
+	width: 20px;
+}
+
+[role="input"] .validation i {
+	position: absolute;
+	top: 6px;
+	right: 2px;
+	font-size: 9px;
+	border-radius: 50%;
+	width: 13px !important;
+	height: 13px;
+	padding: 2px 0 0 0;
+	display: block;
+
+}
+[role="input"] .validation .message {
+	position: absolute;
+	bottom: -14px;
+	left: 0;
+	right: 10px;
+	text-align: left;
+	font-size: 11px;
+
+	break-inside: avoid;
+
+	/*display: none;*/
+}
+
+[role="input"] .validation.above .message {
+	height: 20px;
+	width: auto;
+	position: relative;
+	bottom: 0;
+	right: 0;
+	/*display: none;*/
+}

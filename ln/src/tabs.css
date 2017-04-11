@@ -1,0 +1,70 @@
+.tabs {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: calc(0+attr(data-height));
+}
+.tabs li {
+	float: left;
+	margin-left: 10px;
+}
+.tabs li:first-child {
+}
+
+.tabs label {
+	border: 1px solid blue;
+	z-index: 1;
+}
+
+.tabs input[role^="active"]:checked + label {
+	border-bottom: none;
+	z-index: 100;
+}
+
+.tabs .content {
+	position: absolute;
+	top: 28px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	z-index: 0;
+	z-index: 10;
+	display: none;
+	overflow: auto;
+}
+.tabs input[role^="active"]:checked ~ .content {
+	display: block;
+}
+
+.togglebox {
+	margin: 0 auto;
+}
+
+.togglebox input[role^="active"] {
+	position: absolute;
+	opacity: 0;
+}
+.togglebox input[role^="active"]:checked + label {
+	/*Set color*/
+}
+
+.togglebox input[role^="active"] ~ label {
+	position: relative;
+	display: block;
+	cursor: pointer;
+
+	padding: .5em;
+}
+
+.accordion .content {
+	height: 0;
+	overflow: hidden;
+}
+
+.accordion .content {
+	transition: .3s all;
+}
+
+.accordion input[role^="active"]:checked ~ .content {
+	height: 200px;
+}

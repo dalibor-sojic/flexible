@@ -1,0 +1,140 @@
+/*Color Scheme:
+
+#336eb6 - Blue
+#94C4FF - Svetla
+
+#35373d - Siva
+#e3e3e3 - border
+
+*/
+
+.success {
+	color: #26C281;
+}
+
+.error {
+	color: #e43a45;
+}
+
+.info {
+	color: #3598dc;
+}
+
+.btn.success {
+	color: #fff;
+	background-color: #26C281;
+}
+
+.btn.error, .error .btn {
+	color: #fff;
+	background-color: #e43a45;
+}
+
+.btn.info {
+	color: #fff;
+	background-color: #3598dc;
+}
+
+.validation.error ~ input
+, .validation.error ~ input:hover
+, .validation.error ~ input:focus
+ {
+	border-color: #e43a45;
+}
+
+
+.box {
+	background-color: #f5f5f5;
+	border: 1px solid #e3e3e3;
+	margin: 10px;
+
+}
+
+header {
+	height: 90px;
+}
+
+aside {
+	background-color: #e3e3e3;
+}
+
+
+[role="input"] button:hover {
+	background-color: #94C4FF;
+}
+
+
+input[type="text"]
+, input[type="password"]
+, input[type="number"]
+, input[type="email"]
+, input[type="date"] {
+	background-color: #fafafa;
+	border: 1px solid #e3e3e3;
+}
+
+input[type="text"]:hover
+, input[type="password"]:hover
+, input[type="number"]:hover
+, input[type="email"]:hover
+, input[type="date"]:hover {
+	border-color: #94C4FF;
+	background-color: #fff;
+}
+
+input[type="text"]:focus
+, input[type="password"]:focus
+, input[type="number"]:focus
+, input[type="email"]:focus
+, input[type="date"]:focus {
+	background-color: #fff;
+	border-color: #336eb6;
+}
+
+.inputPrefix.icon, .inputSuffix.icon {
+	background-color: #e3e3e3;
+}
+
+
+table td, table th {
+	border-left: 1px solid #e3e3e3;
+	/*border-bottom: 1px solid #e3e3e3;*/
+}
+
+table thead {
+	background-color: #f5f5f5;
+}
+
+table tbody tr {
+	background-color: #fff;
+}
+table tbody tr:nth-child(2n) {
+	background-color: #f3f3f3;
+}
+
+table tbody tr:hover {
+	background-color: #94C4FF;
+}
+
+
+footer {
+	background-color: #35373d;
+}
+
+
+.togglebox label {
+	background-color: #94C4FF;
+}
+
+.togglebox input[role^="active"]:checked + label {
+	background-color: #fff;
+}
+
+.tabs {
+	background-color: #e3e3e3;
+}
+
+.tabs .content {
+	background-color: #fff;
+	border: 1px solid blue;
+}
