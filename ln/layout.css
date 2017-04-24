@@ -35,3 +35,7 @@ aside {
 form {
 	display: block;
 }
+
+.stickyActionsFooter {
+    height: 50px;
+}
