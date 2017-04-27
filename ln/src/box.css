@@ -29,7 +29,7 @@
 	font-size: 24px;
 }
 
-.box main {
+.box .main {
 	position: absolute;
 	top: 50px;
 	left: 0;
