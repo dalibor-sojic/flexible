@@ -6,58 +6,6 @@
 	text-align: right;
 }
 
-
-.box {
-	position: relative;
-
-}
-.box > header {
-	border-bottom: 1px solid #ccc;
-	font-weight: bold;
-	position: absolute;
-	top: 0;
-	right: 0;
-	left: 0;
-}
-
-.box > header > * {
-	font-size: 14px;
-	margin: 0;
-	padding: 0;
-}
-
-.box.blue > header {
-	background-color: #3598DC;
-}
-
-.box > header > h1
-, .box > header > h2
-, .box > header > h3
-, .box > header > h4
-, .box > header > h5 {
-	padding: 5px;
-	font-weight: bold;
-	font-size: 24px;
-}
-
-.box > main {
-	position: absolute;
-	top: 50px;
-	width: 100%;
-	bottom: 50px;
-	overflow: auto;
-
-}
-
-.box > footer {
-	padding: 5px;
-	position: absolute;
-	bottom: 0;
-	height: 50px;
-}
-
-
-
 .alter > *:nth-child(even) {
 	background-color: #ccc;
 }
