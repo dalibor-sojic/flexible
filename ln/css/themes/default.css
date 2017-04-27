@@ -325,11 +325,6 @@ nav.ln li li a.selected {
 	background-color: #E08283;
 }
 
-
-.main.full-height {
-	height: 100%;
-}
-
 .box main, .box .main {
 	background-color: #fff;
 }
